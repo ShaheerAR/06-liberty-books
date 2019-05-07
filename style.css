@@ -1,0 +1,263 @@
+body{
+    background-color: rgb(223, 229, 232);
+    font-family: 'Roboto', sans-serif;
+}
+
+.topheader{
+    background-color: #0e69b2;
+    height: 40px;
+    border-radius: 3px
+
+}
+
+.logo{
+    position: absolute;
+    width: 320px;
+    left: 40px
+
+}
+
+.navbar{
+    background-color: #dd0017;
+    height: 80px;
+    width: 100%;border-radius: 3px;
+}
+
+#searchbar{
+    position: absolute;
+    left:535px;
+    width: 330px;
+    height: 38px;
+    top: 70px;
+    border-style: solid;
+    color: black;
+    border-width: 4px;
+    border-radius: 3px;
+}
+
+.navdropdown{
+    position: absolute;
+    left:865px;
+    
+    height: 38px;
+    top: 70px;
+    border-style: solid;
+    color: black;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3px;
+
+}
+
+nav{
+    background-color: #1e1e1e;
+    color: white;
+    position: absolute;
+    width: 99%;
+    height: 45px;
+    border-radius: 3px
+}
+
+.categories a {
+    position: absolute;
+    left: 150px;
+    font-size: 16px;
+    top: 10px;
+    color: white;
+    text-decoration: none
+
+}
+
+.urdubooks a{
+    position: absolute;
+    left: 450px;
+    font-size: 16px;
+    top: 10px;
+    color: white;
+    text-decoration: none
+
+}
+ 
+.reducedprice a {
+    position: absolute;
+    left: 750px;
+    font-size: 16px;
+    top: 10px;
+    color: white;
+    text-decoration: none
+
+}
+
+.gifts a {
+
+    position: absolute;
+    left: 1080px;
+    font-size: 16px;
+    top: 10px;
+    color: white;
+    text-decoration: none
+}
+
+.title{
+    position: absolute;
+    left:38%;
+    top: 180px;
+    color: #dc2134;
+    font-size: 12px
+
+
+}
+
+.titlemain{
+    background-color: white;
+    position: absolute;
+    word-spacing: 2px;
+    left: 50px;
+    top: 220px;
+    width: 1250px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 4px
+    
+}
+
+.detailbox{
+    position: absolute;
+    border-radius: 4px;
+    width: 620px;
+    height: 250px;
+    background-color: white;
+    left: 700px;
+    top: 300px;
+    
+
+}
+
+.review-box{
+    position: absolute;
+    border-radius: 4px;
+    width: 620px;
+    height: 80px;
+    background-color: white;
+    left: 700px;
+    top: 590px;
+}
+
+.contact-icon{
+    margin-left: 15px;
+}
+
+.contact-icon:hover{
+    cursor: pointer;
+}
+
+#description-and-review{
+    position: absolute;
+    top:700px;
+    left:50px;
+}
+
+.reviews-btn, .goodbooks-review{
+    padding: 10px;
+    background-color: #0e69b2;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+.description-btn{
+    padding: 10px;
+    background-color:#dc2134 ;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+
+}
+
+.goodbooks-review:hover{
+    cursor: pointer;
+    background-color: #dc2134
+}
+
+.reviews-btn:hover{
+    cursor: pointer;
+    background-color: #dc2134
+}
+
+.description-box{
+    position: absolute;
+    top:733px;
+    left:50px;
+    background-color: white;
+    width: 1240px;
+    padding: 15px;
+    font-size: 1.6ex;
+    font-family:  'Roboto', sans-serif;
+    font-weight: lighter;
+    line-height: 17px
+}
+
+footer{
+    position: absolute;
+    width: 1340px;
+    height: 250px;
+    top: 1100px;
+    background-color: #1e1e1e;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.information{
+    margin: 35px;
+    font-size: 13px;
+    line-height: 25px
+}
+
+.info-hr{
+    position: absolute;
+    border-style: none;
+    width:300px;
+    height: 2px;
+    background-color: #415265;
+    top: 60px;
+}
+
+.customer-support{
+    position: absolute;
+    margin: 35px;
+    font-size: 13px;
+    line-height: 25px;
+    left: 320px;
+    top: -15px;
+}
+
+.customer-hr{
+    position: absolute;
+    border-style: none;
+    width:300px;
+    height: 2px;
+    background-color: #415265;
+    top: 40px;
+}
+
+.bottom-footer{
+    position: absolute;
+    width: 1340px;
+    height: 40px;
+    top: 1350px;
+    background-color: #dc2134;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+.information:hover{
+    color: rgb(3, 75, 3);
+    cursor: pointer;
+}
+.customer-support:hover{
+    color: rgb(3, 75, 3);
+    cursor: pointer;
+}
